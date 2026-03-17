@@ -1,13 +1,15 @@
-//PRINT THE TABLE OF A NO INPUT BY USER
+//WAP TO FIND MULTIPLICATION TABLE OF A GIVEN NO
+
 #include <stdio.h>
 int main()
 {
-    int n;
-    printf("enter the no : ");
-    scanf("%d" ,&n);
-     for(int i=1; i<=10 ; i++)
-     {
-        printf("%d\n", n*i);
-     }
-     return 0;
+    int n,tab;
+    printf("enter the no: ");
+    scanf("%d",&n);
+
+    for(int i=1;i<=10;i++){
+        tab = n*i;
+        printf("%d \n", tab);
+    }
+    return 0;
 }
